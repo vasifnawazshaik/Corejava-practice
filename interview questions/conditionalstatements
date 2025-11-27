@@ -1,0 +1,71 @@
+Conditional Statements
+
+conditional statements is nothing but allows your program to make decion    s and exicute the program in diffrent blocks of code
+depending on conditon is true or false
+
+
+if {
+
+}else{
+
+}
+
+
+Loops 
+
+for loop : for loop in java is a type of a loop that repeats a code in set of times
+(instalzition;condition;update)
+
+for (int i = 1;i<=5;i++);
+
+syso(i)
+
+it will print the i 5 times
+
+While Loop
+
+a while loop in java its keep running as long as condition is true
+
+int i =1;
+while(i<=5){
+syso(i)
+i++;
+}
+
+Do While Loop
+
+a do while loop garuntee the code run at least one time,even the condition is false
+
+int i =1;
+
+do{
+syso(i);
+
+i++;
+}while(i<=5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

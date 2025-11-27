@@ -1,0 +1,57 @@
+19 / 11 2025
+
+class 2 
+
+varibles____  varibles is nothing but it will store the data during the programe
+               - it will use particular data types
+
+data types 
+
+       primative data types                       nonprimative data types
+
+1. number types                                    Array
+
+- int                                              string 
+
+- byte                                             class
+
+- long
+
+- short
+
+2.decimal type
+
+- float
+- double
+
+3.character type
+
+- char
+
+4. boolean
+
+- boolean  
+
+
++----------------+-----------+--------+-------------------+-------------------------------------------+
+| Data Type      | Category  | Size   | Default Value     | Range / Description                       |
++----------------+-----------+--------+-------------------+-------------------------------------------+
+| byte           | Primitive | 8-bit  | 0                 | -128 to 127                               |
+| short          | Primitive | 16-bit | 0                 | -32,768 to 32,767                         |
+| int            | Primitive | 32-bit | 0                 | -2,147,483,648 to 2,147,483,647           |
+| long           | Primitive | 64-bit | 0L                | -9,223,372,036,854,775,808 to             |
+|                |           |        |                   |  9,223,372,036,854,775,807                |
+| float          | Primitive | 32-bit | 0.0f              | 6–7 decimal digits precision              |
+| double         | Primitive | 64-bit | 0.0d              | 15–16 decimal digits precision            |
+| char           | Primitive | 16-bit | '\u0000'          | 0 to 65,535 (Unicode characters)          |
+| boolean        | Primitive | 1 bit* | false             | true / false (actual size JVM-dependent)  |
++----------------+-----------+--------+-------------------+-------------------------------------------+
+| String         | Reference | —      | null              | Sequence of characters                    |
+| Arrays         | Reference | —      | null              | Fixed-size collections                    |
+| Classes        | Reference | —      | null              | User-defined types                        |
+| Interfaces     | Reference | —      | null              | Type contracts                            |
+| Enums          | Reference | —      | null              | Named constants                           |
++----------------+-----------+--------+-------------------+-------------------------------------------+
+
+
+

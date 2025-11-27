@@ -1,0 +1,13 @@
+Razak bhaiya class
+java
+
+
+18-11-2025
+
+JDK _ java development kit
+      
+It is the official software package from Oracle (and other vendors) that developers use to create, compile, run, and debug Java applications.
+
+.JRE = run Java
+
+.JDK = develop + run Java
