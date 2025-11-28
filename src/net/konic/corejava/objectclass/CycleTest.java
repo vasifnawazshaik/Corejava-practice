@@ -10,8 +10,7 @@ public class CycleTest {
 	 cycle.colour = "red";
 	 
 	 cycle.speed = 20;
-	 
-	 cycle.s();
+	 cycle.start();
 
 	}
 

@@ -1,0 +1,5 @@
+.project
+.classpath
+/bin
+bin/module-info.class
+/bin

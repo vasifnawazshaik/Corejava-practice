@@ -15,6 +15,7 @@ public class mobile {
 		System.out.println("wedight:"+ wedight);
 		
 		
+		
 	}
 
 }
