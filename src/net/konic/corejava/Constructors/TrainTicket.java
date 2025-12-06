@@ -1,18 +1,18 @@
 package net.konic.corejava.Constructors;
 
-public class BusTicket {
+public class TrainTicket {
 	
 	String passenger="vasif";
 	static int fare=500;
 	static String companyName="IRCTC";
 	
-	public BusTicket(String passenger) {
+	public TrainTicket(String passenger) {
 
-		this.passenger = passenger;
+		passenger = passenger;
 	}
 	
 	public static void main(String[] args) {
-		BusTicket b1=new BusTicket("Vasif");
+		TrainTicket b1=new TrainTicket("Vasif");
 		System.out.println("total Fare : "+ fare);
 		System.out.println("passenger name : "+ b1.passenger);
 		System.out.println("Company : "+ b1.companyName);
