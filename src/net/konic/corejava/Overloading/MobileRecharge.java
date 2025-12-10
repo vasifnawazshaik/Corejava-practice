@@ -16,7 +16,7 @@ public class MobileRecharge {
        void recharge(String phone) {
     	   System.out.println("Recharge successful for " + phone);
        }
-       void recharged(String phone,String ipohone) {
+       void recharge(String phone,int ipohone) {
     	   System.out.println("Recharge " + phone + " successful" );
     	   }
        void recharge(String phone,String iphone) {
@@ -25,7 +25,7 @@ public class MobileRecharge {
        public static void main(String[] args) {
 		MobileRecharge mr = new MobileRecharge();
 		mr.recharge("9053018907");
-		mr.recharged("₹299", "successful");
+		mr.recharge("₹299", " successful");
 		mr.recharge("₹299", " with coupon NEW50 applied");
 	}
 }

@@ -13,14 +13,14 @@ public class StudentRegistration {
 	Registered: Rahul, Age: 20
 	Registered: Rahul, Age: 20, City: Hyderabad
 */
-	void register(String a) {
-		System.out.println("Register " + a);
+	void register(String name) {
+		System.out.println("Register: " + name);
 	}
-	void register(String a, int b) {
-		System.out.println("Register " + a  + " Age:" + b);	
+	void register(String name, int age) {
+		System.out.println("Register: " + name  + " Age:" + age);	
 	}
-	void register(String a, int b, String c) {
-		System.out.println("Register " +  a  + b +" city:"+c);
+	void register(String name, int age, String city) {
+		System.out.println("Register: " +  name  + age +" city:"+city);
 		
 	}
 	public static void main(String[] args) {

@@ -18,17 +18,17 @@ public class MarksCalculate {
 	  void calculatemarks(int subj) {
 		  System.out.println("Total Marks:" + subj);
 	  }
-	  void calculatem(int subj1,int subj2) {
+	  void calculatemarks(int subj1,int subj2) {
 		  System.out.println("TotalMarks:" + (subj1+subj2));
 		  
 	  }
-	  void calculate(int subj1,int subj2,int subj3) {
+	  void calculatemarks(int subj1,int subj2,int subj3) {
 		  System.out.println("TotalMarks:" + (subj1+subj2+subj3));
 	  }
 	  public static void main(String[] args) {
 		MarksCalculate mc = new MarksCalculate();
 		mc.calculatemarks(80);
-		mc.calculatem(80, 90);
-		mc.calculate(80, 90, 85);
+		mc.calculatemarks(80, 90);
+		mc.calculatemarks(80, 90, 85);
 	}
 }

@@ -14,14 +14,14 @@ public class OnlineShopping {
 	Earphones added to cart
 */
 
-	void addtocart(int x) {
-		System.out.println("addtocart:"+ x);
+	void addtocart(int item) {
+		System.out.println("addtocart "+ item);
 	}
-	void addtocart(int x,int y) {
-		System.out.println("product "+ x +"added with quantity " +y);
+	void addtocart(int item,int pant) {
+		System.out.println("product "+ item +" added with quantity " +pant);
 	}
-	void addtocart(String z) {
-		System.out.println(z + " added to cart ");
+	void addtocart(String shirt) {
+		System.out.println(shirt + " added to cart ");
 	}
      public static void main(String[] args) {
 		OnlineShopping obj = new OnlineShopping();
