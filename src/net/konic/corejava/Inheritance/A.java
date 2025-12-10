@@ -1,21 +1,46 @@
 package net.konic.corejava.Inheritance;
 
-public class A {
-	/*reate Multilevel inheritance A → B → C.
-	Each class has one method: a(), b(), c().
+     public class A {
+    	/* Create Multilevel inheritance A → B → C.
+    	 Each class has one method: a(), b(), c().
 
-	INPUT:
+    	 INPUT:
 
-	Create object of C and call all methods
+    	 Create object of C and call all methods
 
-	EXPECTED OUTPUT:
+    	 EXPECTED OUTPUT:
 
-	A method
-	B method
-	C method
+    	 A method
+    	 B method
+    	 C method
+
+
+    	 ---
 */
-	void animal () {
+     
+   
+	 public void a() {
 		System.out.println("A method");
 	}
-	
-	}
+	 
+}
+     class B extends A {
+        void b() {
+        	System.out.println("B method");
+        }
+        	
+        }
+     class C extends B {
+    	 void c() {
+    		 System.out.println("C method");
+    	 }
+     
+       public class ABCmethod {
+    	   public static void main(String[] args) {
+			C obj = new C();
+			obj.a();
+			obj.b();
+			obj.c();
+		}
+       }
+     }

@@ -25,7 +25,8 @@ public class Person {
      void details(int age) {
     	 System.out.println("age:" + age);
      }
-     
-     
-          
-}
+
+ }
+
+      
+
