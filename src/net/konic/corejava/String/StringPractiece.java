@@ -11,7 +11,7 @@ public class StringPractiece {
   System.out.println("lower case: " + name.toLowerCase());
   System.out.println("charat: " + name.charAt(2));
   System.out.println("contain:" + name.contains("b"));
- // == vs .equals()
+  // == vs .equals()
   String name1 = "men";
   String name2 = "men";
   String name3 = new String("men");
