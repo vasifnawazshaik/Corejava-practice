@@ -10,7 +10,7 @@ public class Practice {
 		StringBuilder sb = new StringBuilder("Huzaifa");
 		System.out.println(sb);
 		System.out.println(sb.hashCode());
-		System.out.println(sb+sb.hashCode());
+		
 	}
 	
 }
